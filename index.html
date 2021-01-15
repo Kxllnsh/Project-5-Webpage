@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <!-----------------Start Html---------------->
 <html lang="en">
-<!---------------------Head---------------------------->
+  <!---------------------Head---------------------------->
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TavTheDev</title>
     <link
       rel="stylesheet"
@@ -19,35 +20,35 @@
       href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/index.css"/>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
   </head>
-<!-----------------------End Head-------------------------->
-<body>
-<!-----------------------NavBar------------------------>
+  <!-----------------------End Head-------------------------->
+  <body>
+    <!-----------------------NavBar------------------------>
     <nav id="navBar" class="nav">
-          <div class="logo">
-              <h1>TavTheDev</h1>
-            </div>
-            
-              <div id="open">
-                <ul class="navList">
-                  <li>
-                    <a href="#welcome-section">About</a>
-                  </li>
-                  <li>
-                    <a href="#contact">Work</a>
-                  </li>
-                  <li>
-                    <a href="#contactinfo">Contact</a>
-                  </li>
-                </ul>
-              </div>
-              <i class="fa fa-bars" onclick="Bar()" id="menu"></i>   
-    </nav>
-<!--------------------End NavBar--------------------------->
+      <div class="logo">
+        <h1>TavTheDev</h1>
+      </div>
 
-<!----------------Welcome Section---------------------->
+      <div id="open">
+        <ul class="navList">
+          <li>
+            <a href="#welcome-section">About</a>
+          </li>
+          <li>
+            <a href="#contact">Work</a>
+          </li>
+          <li>
+            <a href="#contactinfo">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="Bar()" id="menu"></i>
+    </nav>
+    <!--------------------End NavBar--------------------------->
+
+    <!----------------Welcome Section---------------------->
     <section id="welcome-section" class="welcome-section">
       <h1>
         <span class="hover">H</span><span class="hover">e</span
@@ -83,32 +84,49 @@
           href="https://www.linkedin.com/in/tavarn-henry-a730211b0/"
           target="_blank"
           class="btn contact-details"
-          ><i class="fab fa-linkedin-in"></i> Linkedin</a>
+          ><i class="fab fa-linkedin-in"></i> Linkedin</a
+        >
       </div>
     </section>
-<!--------------- End Welcome Section----------------------->
+    <!--------------- End Welcome Section----------------------->
 
-<!--------------Contact Section----------------------->
+    <!--------------Contact Section----------------------->
     <section id="contactinfo">
-        <div class="container">
-          <h1 class="contact_header">Send a Message </h1>
-          <p><em> fill out the info below.</em></p>
-        <div class="form">      
+      <div class="container">
+        <h1 class="contact_header">Send a Message</h1>
+        <p><em> fill out the info below.</em></p>
+        <div class="form">
           <form action="Form">
             <div class="input-data">
-              <input type="email" id="Email" placeholder="email" autocomplete="off" required >
-              <br>
-              <textarea name="message" id="textarea" cols="1" rows="1" placeholder="type your message (optional)"></textarea>
+              <input
+                type="email"
+                id="Email"
+                placeholder="email"
+                autocomplete="off"
+                required
+              />
+              <br />
+              <textarea
+                name="message"
+                id="textarea"
+                cols="1"
+                rows="1"
+                placeholder="type your message (optional)"
+              ></textarea>
             </div>
             <button type="submit" class="btn"><span></span>Submit</button>
-            <p><em>reply varies, depending on the volume of messages received.</em></p>
+            <p>
+              <em
+                >reply varies, depending on the volume of messages received.</em
+              >
+            </p>
           </form>
-        </div>  
+        </div>
       </div>
     </section>
-<!--------------- End Contact Section----------------------->
+    <!--------------- End Contact Section----------------------->
 
-<!--------------------Footer--------------------------->
+    <!--------------------Footer--------------------------->
     <footer>
       <p>
         &copy; Created by
@@ -117,12 +135,12 @@
         ></a>
       </p>
     </footer>
-<!------------------End Footer----------------------------->
+    <!------------------End Footer----------------------------->
 
-<!-------------------Scripts--------------------------->
+    <!-------------------Scripts--------------------------->
     <script src="index.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<!------------------- End Scripts-------------------------->
-</body>
+    <!------------------- End Scripts-------------------------->
+  </body>
 </html>
 <!------------------End Html--------------------->
