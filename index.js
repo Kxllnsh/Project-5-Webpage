@@ -6,6 +6,7 @@ var typed = new Typed(".new", {
     loop: true,
   });
 
+/*
 /////////////////scroll animation/////////////////////
   var previousnavpos = window.pageYOffset;
   window.onscroll = function(){
@@ -17,7 +18,8 @@ var typed = new Typed(".new", {
           }
           previousnavpos = currentnavpos;
   };
-  
+ */
+
 ///////////////////burger menu//////////////////////////
     var menu = document.getElementById('open')
     menu.style.right = "-5000px"
