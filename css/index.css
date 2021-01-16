@@ -474,6 +474,10 @@ footer i {
 
 /* media queries */
 @media screen and (max-width: 800px){
+  
+  body{
+    font-size: 50%;
+  }
   .nav{
     position: relative;
   }
