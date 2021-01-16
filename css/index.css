@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap");
-
 @import url("https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat&display=swap");
 
 /* Html.html */
@@ -177,7 +176,8 @@ img {
   display: flex;
   align-items:center;
   width:100%;
-  height: 100vh;
+  justify-content: center;
+  height: 100%;
   color: #fff;
   text-align: center;
   padding: 30px;
